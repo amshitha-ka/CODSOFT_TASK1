@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow - Modern Web Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">Tech<span>Flow</span></a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="nav-btn">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Build Your Next Big Project with Confidence</h1>
+            <p>Empowering developers and businesses with fast, modern, and reliable digital experiences.</p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn btn-primary">Explore Features</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2 class="section-title">Key Features</h2>
+        <p class="section-subtitle">Everything you need to kickstart your web applications.</p>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon">⚡</div>
+                <h3>Lightning Fast</h3>
+                <p>Optimized architecture ensures rapid loading times and seamless interaction for all users.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📱</div>
+                <h3>Fully Responsive</h3>
+                <p>Flawlessly adapts to screens of all sizes, from mobile phones to high-resolution desktops.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🛡️</div>
+                <h3>Secure & Reliable</h3>
+                <p>Built using industry standards to ensure high performance, stability, and maximum security.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About TechFlow</h2>
+                <p>At TechFlow, we believe in creating simple, powerful, and accessible digital products. Our team focuses on delivering modern web development solutions crafted with clean code and intuitive design.</p>
+                <p>Whether you're starting a new project or upgrading existing infrastructure, we build tools tailored for success.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Have questions or want to collaborate? Send us a message!</p>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email Address" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p id="formStatus" class="form-status"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 TechFlow. Built as part of Oasis Infobyte Internship.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
